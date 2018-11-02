@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <packaging>pom</packaging>
+
+  <groupId>com.lichkin.projects</groupId>
+  <artifactId>lichkin-projects-cashier-desk</artifactId>
+  <version>1.0.0.RELEASE</version>
+
+  <parent>
+    <groupId>com.lichkin.projects</groupId>
+    <artifactId>lichkin-projects-core</artifactId>
+    <version>1.0.0.RELEASE</version>
+  </parent>
+
+  <properties>
+    <com.lichkin.projects.cashier-desk.version>1.0.0.RELEASE</com.lichkin.projects.cashier-desk.version>
+  </properties>
+
+  <modules>
+    <module>lichkin-projects-cashier-desk-common</module>
+    <module>lichkin-projects-cashier-desk-entities</module>
+    <module>lichkin-projects-cashier-desk-services</module>
+    <module>lichkin-projects-cashier-desk-apis-common</module>
+    <module>lichkin-projects-cashier-desk-admin</module>
+    <module>lichkin-projects-cashier-desk-admin-ui</module>
+    <module>lichkin-projects-cashier-desk-user</module>
+    <module>lichkin-projects-cashier-desk-user-ui</module>
+    <module>lichkin-projects-cashier-desk-employee</module>
+    <module>lichkin-projects-cashier-desk-employee-ui</module>
+    <module>lichkin-projects-cashier-desk-quartz</module>
+  </modules>
+
+</project>
